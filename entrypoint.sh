@@ -5,9 +5,9 @@ if [ "$VER" = "latest" ]; then
   wget http://storage.googleapis.com/v2ray-docker/geoip.dat
   wget http://storage.googleapis.com/v2ray-docker/geosite.dat
 else
-  wget -O v2ray.zip http://github.com/v2ray/v2ray-core/releases/download/v$VER/v2ray-linux-64.zip
+  wget -O v2ray.zip http://github.com/v2ray/v2ray-core/releases/download/v3.30/v2ray-linux-64.zip
   unzip v2ray.zip 
-  cd /v2raybin/v2ray-v$VER-linux-64
+  cd /v2raybin/v2ray-v3.30-linux-64
 fi
 
 chmod +x v2ray
