@@ -7,7 +7,7 @@ if [ "$VER" = "latest" ]; then
 else
   wget -O v2ray.zip https://www.v2ray.com/download/Core_v3.37/v2ray-linux-64.zip
   unzip v2ray.zip 
-  cd /v2raybin/v2ray-v3.30-linux-64
+  cd /v2raybin/v2ray-v3.37-linux-64
 fi
 
 chmod +x v2ray
